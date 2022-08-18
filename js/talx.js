@@ -1,6 +1,6 @@
 $(document).ready(function () {
     let hash = window.location.hash;
-    const regex = /^#stage-[l][1-3][abc]?$/g;
+    const regex = /^#action-[1-3][abc]?$/g;
     const found = hash.match(regex);
     if (found) {
 
